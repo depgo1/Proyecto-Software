@@ -74,7 +74,8 @@
         </tr>
         <tr>
           <td width="142" rowspan="2"  align="center"><img src="img/edificio.jpg" width="284" height="199" /></td>
-          <td width="97"><input type="button" name="depa" id="depa" value="Departamento" onclick="window.location.href='departamento.jsp'" />
+          <td width="97">estoy en departamento
+            <input onclick="window.open('Aqui la direccion que quieres que se abra')" />
           </td>
         </tr>
         <tr>

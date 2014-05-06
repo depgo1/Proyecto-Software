@@ -23,17 +23,17 @@
 </table>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<table width="541" border="0" align="center">
+<table width="567" border="0" align="center">
   <tr>
     <td width="318" rowspan="2" align="left" valign="bottom"><img src="img/fondo2.jpg" width="318" height="43" /></td>
-    <td width="209" bgcolor="#083763">&nbsp;</td>
+    <td width="239" bgcolor="#083763">&nbsp;</td>
   </tr>
   <tr>
   	<%@ page import="java.util.Date" %>
    <% Date fecha = new Date(); %>
    <%int mes= fecha.getMonth()+1; %>
    <% String mes1; %>
-
+   
    <%if(mes==1){ %>
    <% mes1="Enero";%>
    <%}else if (mes==2){ %>
@@ -62,10 +62,11 @@
     <td align="center" bgcolor="#FFCC00"><%= ""+ (fecha.getDay()-3) +" de "+mes1+" del "+ (fecha.getYear()+1900)%></td>
   </tr>
 </table>
-<table width="541" border="0" align="center" background="img/fondo1.jpg" >
+<table width="565" border="0" align="center" background="img/fondo1.jpg" >
   <tr>
-    <td align="center"><!-- InstanceBeginEditable name="EditRegion1" -->
-      <table width="356" height="214" border="0" >
+    <td width="451" align="center"><!-- InstanceBeginEditable name="EditRegion1" -->
+    
+      <table width="484" height="297" border="0" >
         <tr>
           <td colspan="2"  class="medio">Bienvenido al sistema control de pago de servicios para departamento</td>
         </tr>
@@ -73,12 +74,14 @@
           <td colspan="2">&nbsp;</td>
         </tr>
         <tr>
-          <td width="142" rowspan="2"  align="center"><img src="img/edificio.jpg" width="284" height="199" /></td>
-          <td width="97"><input type="button" name="depa" id="depa" value="Departamento" onclick="window.location.href='departamento.jsp'" />
-          </td>
+          <td width="289" rowspan="3"  align="center" valign="middle"><img src="img/edificio.jpg" width="284" height="199" /></td>
+          <td width="90" height="53">Estoy en registro servicio</td>
         </tr>
         <tr>
-          <td>&nbsp;</td>
+          <td valign="top">&nbsp;</td>
+        </tr>
+        <tr>
+          <td valign="bottom">&nbsp;</td>
         </tr>
       </table>
     <!-- InstanceEndEditable --></td>
